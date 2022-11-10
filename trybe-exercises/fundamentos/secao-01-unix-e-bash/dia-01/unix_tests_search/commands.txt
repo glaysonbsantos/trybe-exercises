@@ -1,0 +1,37 @@
+   62  mkdir unix_tests_search
+   63  cd unix_tests_search
+   64  curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+   65  cat countries.txt
+   66  less countries.txt
+   67  less grep 'Zambia' countries.txt
+   68  grep 'Zambia' countries.txt
+   69  grep 'Brazil' countries.txt
+   70  grep -i 'brazil' countries.txt
+   71  touch phrases.txt
+   72  echo 'frase 1' phrases.txt
+   73  echo 'frase 1' > phrases.txt
+   74  cat 'frase 2' > phrases.txt
+   75  cat frase 2 > phrases.txt
+   76  echo 'frase 1' > phrases.txt
+   77  cat 'frase 2' >> phrases.txt
+   78  cat frase 2 >> phrases.txt
+   79  echo 'frase 2' >> phrases.txt
+   80  echo 'frase 3' >> phrases.txt
+   81  cat >> phrases.txt
+   82  open phrases.txt
+   83  cat >> phrases.txt
+   84  cat phrases.txt
+   85  clear
+   86  grep -iv 'fox' phrases.txt
+   87  wc -w phrases.txt
+   88  wc -l phrases.txt
+   89  touch empty.tbt
+   90  touch empty.pdf
+   91  ls *
+   92  ls*
+   93  ls
+   94  ls *
+   95  ls '*.txt'
+   96  ls *.txt
+   97  mann ls
+   98  man ls

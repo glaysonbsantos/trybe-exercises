@@ -1,0 +1,40 @@
+   18  mkdir Trybe
+   19  cd Trybe
+   20  mkdir trybe-exercises
+   21  cd trybe-exercises
+   22  mkdir fundamentos
+   23  mkdir front-end
+   24  mkdir back-end
+   25  mkdir ciencia-da-computacao
+   26  cd fundamentos
+   27  mkdir secao-01-unix-e-shell
+   28  mov secao-01-unix-e-shell secao-01-unix-e-bash
+   29  mkdir secao-01-unix-e-bash
+   30  rmdir secao-01-unix-e-shell
+   31  clear
+   32  ls
+   33  cd secao-01-unix-e-bash
+   34  mkdir dia-01
+   35  cd dia-01
+   36  mkdir unix_tests
+   37  cd unix_tests
+   38  touch trybe.txt
+   39  cp trybe.txt trybe_backup.txt
+   40  mov trybe.txt trybe-turma-29.txt
+   41  mv trybe.txt trybe-turma-29.txt
+   42  mkdir backup
+   43  mov trybe_backup.txt backup
+   44  mv trybe_backup.txt backup
+   45  mkdir backup2
+   46  mv backup/trybe_backup.txt backup2
+   47  rmdir backup
+   48  mv backup2 backup
+   49  pwd
+   50  pwd *
+   51  man pwd
+   52  ls
+   53  ls *
+   54  clear
+   55  pwd ls
+   56  rm -f backup
+   57  rm -rf backup
