@@ -1,0 +1,1 @@
+Mais práticas foram realizadas a respeito do uso de comandos no terminal (permissões e jobs inclusive).
