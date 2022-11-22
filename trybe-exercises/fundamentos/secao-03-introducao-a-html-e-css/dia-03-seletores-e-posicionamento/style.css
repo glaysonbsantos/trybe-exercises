@@ -1,16 +1,28 @@
-.center-txt {
-  text-align: center;
+div:hover {
+  border: 5px dotted black;
 }
 
-li:hover {
-  background-color: aqua;
+div:nth-of-type(1) h3 {
+  background-color: #3e92cc;
+  font-style: italic;
+  text-decoration: line-through;
 }
-
-li:active {
-  font-family: "Courier New", Courier, monospace;
+div:nth-of-type(2) h3 {
+  background-color: #dfdfdf;
+  text-decoration: underline;
 }
-
-ul,
-li {
-  list-style: none;
+div:nth-of-type(3) h3 {
+  background-color: #2a628f;
+  height: 100px;
+  font-style: italic;
+  text-decoration: solid;
+}
+div:nth-of-type(4) {
+  background-color: #13293d;
+  color: white;
+}
+div:nth-of-type(5) {
+  background-color: #c6ebff;
+  font-style: italic;
+  text-decoration: overline;
 }
