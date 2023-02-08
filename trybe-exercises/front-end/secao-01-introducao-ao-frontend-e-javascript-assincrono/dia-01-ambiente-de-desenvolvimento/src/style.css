@@ -1,0 +1,85 @@
+/* src/style.css */
+body {
+  background-color: #505050;
+  color: white;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+  
+main {
+  background-color: rgba(255, 255, 255, 0.1);
+  max-width: 600px;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
+  
+h2 {
+  color: #76f16f;
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+  
+#generatePasswordBtn {
+  background-color: #199619;
+  border: 0 none;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px
+}
+
+#copyBtn {
+  background-color: rgba(255,255,255,0.1);
+  border: none;
+  border-radius: 5px;
+  height: 43px;
+  width: 43px;
+  cursor: pointer;
+}
+
+#copyBtn:hover {
+  background-color: #505050;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #202020;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
